@@ -1,0 +1,23 @@
+.img-responsive{
+    width: 50px;
+    height: 40px;
+}
+.nav-link{
+    text-decoration: none;
+    color: white;
+}
+.nav-link:hover{
+    background-color: white;
+    color: black;
+}
+.dropdown:hover>.dropdown-menu{
+    display: block;
+    margin-top: 2px;
+}
+.dropdown-menu, .dropdown-item{
+    background-color: black;
+    color: white;
+}
+.h3{
+    color: white;
+}
