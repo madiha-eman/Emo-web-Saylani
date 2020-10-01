@@ -45,15 +45,29 @@
     border: 2px solid black;
 }
 .backg{
-    background-color: #ccc;
+    background-color: rgb(248, 246, 246);
+}
+.fa-globe{
+    margin-left: 23px;
+    margin-top: 37px;
+    font-size: 230px;
 }
 .head{
     margin-top: 56px;
     margin-bottom: 60px;
     margin-left: 20px;
 }
-.display-5{
+.p1{
+    margin-bottom: 40px;
+    margin-left: 20px;
+    font-size: 20px;
+    
+   
+}
+.p2{
     margin-bottom: 30px;
     margin-left: 20px;
-   
+    color: rgb(112, 108, 108);
+    font-weight: 400;
+    font-size: 15px;
 }
