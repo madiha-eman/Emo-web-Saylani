@@ -133,126 +133,38 @@ span{
 }
 .bg{
     background-color: rgb(248, 246, 246);
+    margin-top: 50px;
     
 }
 .head3{
-    padding-top: 70px;
+    padding-top: 40px;
     padding-bottom: 30px;
     color: #303030;
     font-weight: 600;
     font-size: 24px;
 
 }
-.card-text, .color{
-    color: #818181;
-    
-}
-.color{
-    font-weight: 500;
-    letter-spacing: -0.5px;
-}
-.port-h4{
-    margin-bottom: 30px;
-    color: #303030;
-    font-weight: 400;
-}
-@media screen and (max-width: 768){
-    .col-sm-4{
-        width: 18px;
-       
-    } 
-}
 .carousel-control.right, .carousel-control.left {
-    background-image: none;
-    color: #f4511e;
-  }
-  
-  .carousel-indicators li {
-    border-color: #f4511e;
-  }
-  
-  .carousel-indicators li.active {
-    background-color: #f4511e;
-  }
-  
-  .item h4 {
-    font-size: 19px;
-    line-height: 1.375em;
-    font-weight: 400;
-    font-style: italic;
-    margin: 70px 0;
-  }
-  
-  .item span {
-    font-style: normal;
-  }
-  section.pricing {
-    background: #eb3903;
+  background-image: none;
+  color: #f4511e;
+}
 
-  }
-  
-  .pricing .card {
-    border: 2px solid #fc3d03;
-    border-radius: 1rem;
-    transition: all 0.2s;
-    box-shadow: 0 0.5rem 1rem 0 rgba(0, 0, 0, 0.1);
-  }
-  
-  .pricing hr {
-    margin: 1.5rem 0;
-  }
-  
-  .pricing .card-title {
-    color: #f4511e;
-    font-size: 24px;
-    font-weight: bold;
-  }
-  
-  .pricing .card-price {
-    font-size: 3rem;
-    margin: 0;
-  }
-  
-  .pricing .card-price .period {
-    font-size: 0.8rem;
-  }
-  
-  .pricing ul li {
-    margin-bottom: 1rem;
-  }
-  
-  .pricing .text-muted {
-    opacity: 0.7;
-  }
-  
-  .pricing .btn {
-    font-size: 80%;
-    border-radius: 5rem;
-    letter-spacing: .1rem;
-    font-weight: bold;
-    
-    opacity: 0.7;
-    transition: all 0.2s;
-  }
-  .btn{
-      background-color: #f4511e;
-      
-  }
-  .btn-primary {
-      margin-left: 80px;
-      width: 170px;
-      margin-top: 20px;
-  }
-  
-  /* Hover Effects on Card */
-  
-  @media (min-width: 992px) {
-    .pricing .card:hover {
-      margin-top: -.25rem;
-      margin-bottom: .25rem;
-      box-shadow: 0 0.5rem 1rem 0 rgba(0, 0, 0, 0.3);
-    }
-    .pricing .card:hover .btn {
-      opacity: 1;
-    }
-  }
+.carousel-indicators li {
+  border-color: #f4511e;
+}
+
+.carousel-indicators li.active {
+  background-color: #f4511e;
+}
+
+.item h4 {
+  font-size: 19px;
+  line-height: 1.375em;
+  font-weight: 400;
+  font-style: italic;
+  margin: 70px 0;
+}
+
+.item span {
+  font-style: normal;
+}
