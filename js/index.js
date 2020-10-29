@@ -36,10 +36,70 @@ var friends = ["Asma", "Maryam", "Khizra", "Faiza"]
 // console.log(friends[3])
 // friends.unshift("rumaisa","eman")
 // friends.pop(1)
-friends.push("tania")
-console.log(friends)
+// friends.push("tania")
+// console.log(friends)
 
 
+
+
+
+
+
+
+// function
+
+// for loop
+// for (var i=1; i<=20; i++){
+//     console.log(i,'Madiha')
+//}
+
+
+var oldSt = ['a', 'b', 'c', 'd', 'e', 'f', 'g'];
+var newSt = ['1', '2', '3', '5', '6', '7', '8'];
+var Fulllist = [];
+if(oldSt.length === newSt.length){
+for(var i=0; i < oldSt.length; i++){
+    Fulllist[i] = oldSt[i] + newSt[i];
+}
+    console.log(Fulllist)
+}
+
+
+// var input1 = prompt("write your name");
+// var oldSt = ['a', 'b', 'c', 'd', 'e', 'f', 'g'];
+// var result = false;
+// for(var i=0; i < oldSt.length; i++){
+//   if(input1 == oldSt[i]){
+//     result = true
+//     break;
+// }
+
+// }
+//  if (result){
+//      console.log("name is found")
+//  }else{
+//      console.log("name is not found")
+//  }
+
+//OR
+
+// var input1 = prompt("write your name");
+// var oldSt = ['a', 'b', 'c', 'd', 'e', 'f', 'g'];
+// for(var i=0; i<oldSt.length; i++){
+//     if(input1 == oldSt[i]){
+//         alert("found")
+//     }
+// } 
+
+
+var oldSt = ['a', 'b', 'c', 'd', 'e', 'f', 'g'];
+var newSt = ['1', '2', '3', '5', '6', '7', '8'];
+var FullList = []
+for(var i=0; i<oldSt.length; i++){
+    for(var j=0; j<newSt.length; j++)
+    FullList.push(oldSt[i] + newSt[j]);
+    
+}
 
 
 
