@@ -1,5 +1,51 @@
+ .bg-dark{
+     background-color: #262626 !important;
+ }
+.navbar-nav li a:hover{
+    color: #fff!important;
+    background-color: #1abc9c !important;
+}
+.navbar-brand, a{
+    color: white !important;
+    font-weight:600;
+
+}
+.navbar-nav{
+  padding: 2px;
+}
+a{
+    letter-spacing: 3px;
+    line-height: 1.42857143 !important;
+}
+.navbar-brand{
+    font-size: 28px;
+    letter-spacing: 4px;
+    line-height: 0.5 !important;
+}
+.my-toggler .navbar-toggle {
+    border-color: white;
+    color: #fff !important;
+  }
+@media screen and (max-width: 768px){
+    .navbar-brand, a{
+        float: left;
+        margin: 0;
+
+    }
+    .navbar-brand{
+       display: inline-block;
+    }
+    .my-toggler .navbar-toggle {
+        border-color: white;
+        color: #fff !important;
+      }
+}
+
 .jumbotron{
-    background-color: #f4511e;
+    background-color:#262626;
+}
+.lead{
+    color: white;
 }
 .head1{
     text-transform: uppercase;
