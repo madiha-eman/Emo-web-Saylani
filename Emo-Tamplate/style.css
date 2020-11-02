@@ -26,9 +26,18 @@
     margin: auto;
    
 }
+.lead1{
+    color: #fff;
+}
 .btn1{
     background-color:  #1abc9c;
     border: 2px solid  #1abc9c;
+}
+@media screen and (max-width: 768px){
+    .btn1{
+        margin-right: 20px;
+
+    }
 }
 /* about company */
 .head2-1{
@@ -138,7 +147,7 @@ h4{
     color:#303030;
     
 }
-span{
+.span2{
     margin-bottom: 50px;
     color: #818181;
     letter-spacing: -0.5px;
@@ -313,9 +322,11 @@ span{
     margin-top: 20px;
 
 }
+
 .btn4{
+    float: right;
     margin-top: 26px;
-    margin-left: 500px;
+    /* margin-left: 20px; */
     width: 60px;
     background-color: rgb(218, 206, 206);
     color: black;
