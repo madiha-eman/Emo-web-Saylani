@@ -102,12 +102,12 @@
 // }
 
 
-/// with for loop and function
+// with for loop and function
 // var numbers = [3,4,6];
 // var newSt =[];
-// function double(num){
-// for(var i=0; i<num.length; i++){
-//      newSt.push(num[i]*2)
+// function double(numbers){
+// for(var i=0; i<numbers.length; i++){
+//      newSt.push(numbers[i]*2)
 // }
 
 // }
@@ -177,20 +177,24 @@
 // console.log(newNames)
 
 
-var name = "madiha"
-var vcount = 1;
+// var name = "madiha"
+// var vcount = 1;
 
-function vowel1(name1){
-    for(i=0; i<name1.length; i++){
-        if(vowel1.indexOf(name1[i]) !== -1){
-            vcount += 1
-        }
-    }
-    return vcount;
+// function vowel1(name1){
+//     for(i=0; i<name1.length; i++){
+//         if(vowel1.indexOf(name1[i]) !== -1){
+//             vcount += 1
+//         }
+//     }
+//     return vcount;
     
-}
-console.log(vowel1)
+// }
+// console.log(vowel1)
 
 
-function vowel(name)
+// function vowel(name)
 
+// ///
+// for(var i=1; i>0; i++){
+//     console.log('hello')
+// }
