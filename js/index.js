@@ -29,7 +29,7 @@
 // else
 // console.log("you are not allowed")
 
-var friends = ["Asma", "Maryam", "Khizra", "Faiza"]
+// var friends = ["Asma", "Maryam", "Khizra", "Faiza"]
 
 
 //  console.log(friends[4]);
@@ -54,15 +54,15 @@ var friends = ["Asma", "Maryam", "Khizra", "Faiza"]
 //}
 
 
-var oldSt = ['a', 'b', 'c', 'd', 'e', 'f', 'g'];
-var newSt = ['1', '2', '3', '5', '6', '7', '8'];
-var Fulllist = [];
-if(oldSt.length === newSt.length){
-for(var i=0; i < oldSt.length; i++){
-    Fulllist[i] = oldSt[i] + newSt[i];
-}
-    console.log(Fulllist)
-}
+// var oldSt = ['a', 'b', 'c', 'd', 'e', 'f', 'g'];
+// var newSt = ['1', '2', '3', '5', '6', '7', '8'];
+// var Fulllist = [];
+// if(oldSt.length === newSt.length){
+// for(var i=0; i < oldSt.length; i++){
+//     Fulllist[i] = oldSt[i] + newSt[i];
+// }
+//     console.log(Fulllist)
+// }
 
 
 // var input1 = prompt("write your name");
@@ -92,15 +92,105 @@ for(var i=0; i < oldSt.length; i++){
 // } 
 
 
-var oldSt = ['a', 'b', 'c', 'd', 'e', 'f', 'g'];
-var newSt = ['1', '2', '3', '5', '6', '7', '8'];
-var FullList = []
-for(var i=0; i<oldSt.length; i++){
-    for(var j=0; j<newSt.length; j++)
-    FullList.push(oldSt[i] + newSt[j]);
+// var oldSt = ['a', 'b', 'c', 'd', 'e', 'f', 'g'];
+// var newSt = ['1', '2', '3', '5', '6', '7', '8'];
+// var FullList = []
+// for(var i=0; i<oldSt.length; i++){
+//     for(var j=0; j<newSt.length; j++)
+//     FullList.push(oldSt[i] + newSt[j]);
+    
+// }
+
+
+/// with for loop and function
+// var numbers = [3,4,6];
+// var newSt =[];
+// function double(num){
+// for(var i=0; i<num.length; i++){
+//      newSt.push(num[i]*2)
+// }
+
+// }
+//  double(numbers)
+// console.log(newSt)
+
+
+
+
+//// with foreach function
+// var numbers = [3,4,6];
+// var newSt =[];
+// function double2(numbers){
+//     numbers.forEach(function(element){
+//         newSt.push (element*2)
+        
+//     })
+   
+// }
+// double2(numbers);
+// console.log(newSt);
+
+// Write a JavaScript function that accepts a string as a parameter and counts the number of vowels within the string.
+
+///
+
+// var names = ["asma","fariha", "eman"];
+// names = names.toLocaleUpperCase();
+// var newNames = [];
+// function upper1(names){
+//     newNames.push(names);
+//     return newNames
+    
+// }
+// upper1(names);
+// console.log(newNames)
+
+// var names = "madiha";
+// function titlecase(names1){
+//     names = names1.toUpperCase();
+// }
+// titlecase( names)
+// console.log(names)
+
+///
+// var names = "madiha eman";
+// var newNames
+// function titlecase(names) {
+//     newNames = names[0].toUpperCase() + names.slice(1)
+// }
+// titlecase(names)
+// console.log(newNames)
+
+//
+// var names = "madiha eman";
+// var newNames
+// function titlecase(names) {
+//     var names2 =names.split(" ")
+//     for(var i=0; i<names2.length; i++){
+//         names2[i] = names2[i][0].toUpperCase() + names2[i].slice(1)
+//     }
+//     names2 = names2.join(" ")
+//     console.log(names2)
+//     return names2
+// }
+// var newNames = titlecase(names)
+// console.log(newNames)
+
+
+var name = "madiha"
+var vcount = 1;
+
+function vowel1(name1){
+    for(i=0; i<name1.length; i++){
+        if(vowel1.indexOf(name1[i]) !== -1){
+            vcount += 1
+        }
+    }
+    return vcount;
     
 }
+console.log(vowel1)
 
 
-
+function vowel(name)
 

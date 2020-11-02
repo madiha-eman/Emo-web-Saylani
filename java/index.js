@@ -94,3 +94,12 @@
 // else if (cityName === "quetta"){
 //     alert("welcome to cold city");
 // }
+
+
+var number = prompt("write a number");
+function numbers(number){
+    var number = number + number;
+     return number
+}
+var result = numbers(number);
+console.log(numbers)
