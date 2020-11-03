@@ -230,7 +230,7 @@
 // var empty = str.splice(0,15) + change;
 // console.log(empty)
 
-<<<<<<< HEAD
+
 
 //or
 // var msg = "the quick brown for  jumps over the lazy dog";
@@ -288,18 +288,19 @@
 //   console.log(financial(input))
 
 
-  var input = prompt("write a number");
- var input1 = prompt("write a number"); 
-  function get(input,input1) {
-    input = input.toFixed(input1);
-    console.log(get(input,input1))
-  }
+//   var input = prompt("write a number");
+//  var input1 = prompt("write a number"); 
+//   function get(input,input1) {
+//     input = input.toFixed(input1);
+//     console.log(get(input,input1))
+//   }
  
 
 // function vowel(name)
 
-// ///
+///
 // for(var i=1; i>0; i++){
 //     console.log('hello')
 // }
 
+for(var)
