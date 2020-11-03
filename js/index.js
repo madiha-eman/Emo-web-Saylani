@@ -102,7 +102,7 @@
 // }
 
 
-/// with for loop and function
+// with for loop and function
 // var numbers = [3,4,6];
 // var newSt =[];
 // function double(numbers){
@@ -192,6 +192,7 @@
 // console.log(vowel1)
 
 
+
 // function vowel(name)
 
 
@@ -218,6 +219,7 @@
 
 
 
+
 // ///
 // var str = "the quick brown for jumps over the lazy dog";
 // console.log(str.indexOf('the quick brown'))
@@ -228,6 +230,7 @@
 // var empty = str.splice(0,15) + change;
 // console.log(empty)
 
+<<<<<<< HEAD
 
 //or
 // var msg = "the quick brown for  jumps over the lazy dog";
@@ -292,3 +295,11 @@
     console.log(get(input,input1))
   }
  
+
+// function vowel(name)
+
+// ///
+// for(var i=1; i>0; i++){
+//     console.log('hello')
+// }
+
