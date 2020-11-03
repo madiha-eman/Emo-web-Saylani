@@ -105,9 +105,9 @@
 /// with for loop and function
 // var numbers = [3,4,6];
 // var newSt =[];
-// function double(num){
-// for(var i=0; i<num.length; i++){
-//      newSt.push(num[i]*2)
+// function double(numbers){
+// for(var i=0; i<numbers.length; i++){
+//      newSt.push(numbers[i]*2)
 // }
 
 // }
@@ -177,20 +177,118 @@
 // console.log(newNames)
 
 
-var name = "madiha"
-var vcount = 1;
+// var name = "madiha"
+// var vcount = 1;
 
-function vowel1(name1){
-    for(i=0; i<name1.length; i++){
-        if(vowel1.indexOf(name1[i]) !== -1){
-            vcount += 1
-        }
-    }
-    return vcount;
+// function vowel1(name1){
+//     for(i=0; i<name1.length; i++){
+//         if(vowel1.indexOf(name1[i]) !== -1){
+//             vcount += 1
+//         }
+//     }
+//     return vcount;
     
-}
-console.log(vowel1)
+// }
+// console.log(vowel1)
 
 
-function vowel(name)
+// function vowel(name)
 
+
+//
+
+// var courses = prompt("write a course name")
+// var course1 = [];
+
+
+
+
+////for first index number how many alphabets are there
+// var str = "the quick brown for jumps over the lazy dog";
+// console.log(str.indexOf('quick'))
+
+// // for last index
+// var str = "the quick brown quick for jumps over the lazy dog";
+// console.log(str.lastIndexOf('quick'))
+
+// //
+// var str = "the quick brown for jumps over the lazy dog";
+// console.log(str.indexOf('quick'))
+// console.log(str.charAt(2));
+
+
+
+// ///
+// var str = "the quick brown for jumps over the lazy dog";
+// console.log(str.indexOf('the quick brown'))
+// var index =( 'the white cat' + str.slice(0,15)) ;
+// console.log(index)
+// var change = ['the white cat'];
+// var empty = [];
+// var empty = str.splice(0,15) + change;
+// console.log(empty)
+
+
+//or
+// var msg = "the quick brown for  jumps over the lazy dog";
+// var get = msg.indexOf('  ');
+// if(get !== -1){
+//     console.log( `you get two space ${get}` )
+// }
+//  else{
+//     console.log('correct')
+// }
+
+//or
+// var msg = "the quick brown for  jumps over the lazy dog";
+// if(msg.indexOf('  ') >= 0){
+//     console.log("2 space found")
+// }
+// else{
+//     console.log("not found")
+// }
+
+// var msg =  "the quick brown for jumps over the lazy dog";
+// var get = msg.lastIndexOf('!');
+
+// if(get !== -1){
+//     console.log(` ! found ${get}`);
+// }
+// else{
+//     console.log("not found")
+// }
+
+//or
+// var msg =  "the quick brown for  jumps over the lazy dog";
+// var find = '  ';
+// for(let i=0; i<msg.length; i++){
+//     if (msg.slice(i, i+2) == "  "){
+//         console.log('error! found two space in text')
+//         break
+//     }
+//     else{
+//         console.log("no error")
+//     }
+// }
+
+//
+//  var input = prompt("write a number");
+//  var input1 = prompt("write a number");
+// var get = Number(input).toFixed(input1);
+//  console.log(get);
+
+//  var input = prompt("write a number");
+//  var input1 = prompt("write a number"); 
+//   function financial(input) {
+//     return Number(input).toFixed(input1);
+//   }
+//   console.log(financial(input))
+
+
+  var input = prompt("write a number");
+ var input1 = prompt("write a number"); 
+  function get(input,input1) {
+    input = input.toFixed(input1);
+    console.log(get(input,input1))
+  }
+ 
