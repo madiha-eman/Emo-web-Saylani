@@ -303,4 +303,60 @@
 //     console.log('hello')
 // }
 
-for(var)
+var days = ["sunday", "monday", "tuesday", "wednesday", "thursday", "friday", "saturday"]
+var range = Math.floor((Math.random() * 7));
+console.log("you are slected" + " "+ days[range])
+
+
+var days = ["sunday", "monday", "tuesday", "wednesday", "thursday", "friday", "saturday"]
+var match = ["you are slected"]
+for(i=0; i<days.length; i++){
+    for(j=0; j<match.length; j++)
+    console.log(match[j]  + " " + days[i])
+}
+var birth = new Date ('june 23, 1997')
+var now = new Date();
+var days = now.getTime() - birth.getTime();
+days = days/(1000*60*60*24)
+console.log(days)
+
+var birth = new Date ('june 23, 1997')
+var now = new Date();
+var days = now.getDay() - birth.getDay();
+days = days/(1000*60*60*24)
+console.log(days)
+
+
+var now = new Date();
+var tmrrw = new Date('Nov 5, 2020 9:00')
+var remaining = now.getTime() - tmrrw.getTime();
+remaining = remaining/(1000*60*60)
+console.log(remaining)
+
+
+// var now = new Date();
+// var tmrrw = new Date('Nov 5, 2020 9:00')
+// var remaining = now.getHours() - tmrrw.getHours();
+// remaining = remaining/(1000*60*60*24)
+// console.log(remaining)
+
+
+function dob(){
+    var now = new Date();
+    var time1 = now.getFullYear();
+    var time2 = now.getMonth();
+    var time3 = now.getDate();
+    console.log(time1 + time2 + time3)
+
+}
+var now = new Date();
+function dob(now){
+    
+    var date = now.getHours() + ":" + (now.getMinutes()+1)+ ":" + now.getSeconds();
+    console.log(date)
+}
+dob(now)
+
+// 1
+// var now = new Date();
+// console.log(now)
