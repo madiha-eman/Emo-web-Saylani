@@ -303,35 +303,35 @@
 //     console.log('hello')
 // }
 
-var days = ["sunday", "monday", "tuesday", "wednesday", "thursday", "friday", "saturday"]
-var range = Math.floor((Math.random() * 7));
-console.log("you are slected" + " "+ days[range])
+// var days = ["sunday", "monday", "tuesday", "wednesday", "thursday", "friday", "saturday"]
+// var range = Math.floor((Math.random() * 7));
+// console.log("you are slected" + " "+ days[range])
 
 
-var days = ["sunday", "monday", "tuesday", "wednesday", "thursday", "friday", "saturday"]
-var match = ["you are slected"]
-for(i=0; i<days.length; i++){
-    for(j=0; j<match.length; j++)
-    console.log(match[j]  + " " + days[i])
-}
-var birth = new Date ('june 23, 1997')
-var now = new Date();
-var days = now.getTime() - birth.getTime();
-days = days/(1000*60*60*24)
-console.log(days)
+// var days = ["sunday", "monday", "tuesday", "wednesday", "thursday", "friday", "saturday"]
+// var match = ["you are slected"]
+// for(i=0; i<days.length; i++){
+//     for(j=0; j<match.length; j++)
+//     console.log(match[j]  + " " + days[i])
+// }
+// var birth = new Date ('june 23, 1997')
+// var now = new Date();
+// var days = now.getTime() - birth.getTime();
+// days = days/(1000*60*60*24)
+// console.log(days)
 
-var birth = new Date ('june 23, 1997')
-var now = new Date();
-var days = now.getDay() - birth.getDay();
-days = days/(1000*60*60*24)
-console.log(days)
+// var birth = new Date ('june 23, 1997')
+// var now = new Date();
+// var days = now.getDay() - birth.getDay();
+// days = days/(1000*60*60*24)
+// console.log(days)
 
 
-var now = new Date();
-var tmrrw = new Date('Nov 5, 2020 9:00')
-var remaining = now.getTime() - tmrrw.getTime();
-remaining = remaining/(1000*60*60)
-console.log(remaining)
+// var now = new Date();
+// var tmrrw = new Date('Nov 5, 2020 9:00')
+// var remaining = now.getTime() - tmrrw.getTime();
+// remaining = remaining/(1000*60*60)
+// console.log(remaining)
 
 
 // var now = new Date();
@@ -341,22 +341,117 @@ console.log(remaining)
 // console.log(remaining)
 
 
-function dob(){
-    var now = new Date();
-    var time1 = now.getFullYear();
-    var time2 = now.getMonth();
-    var time3 = now.getDate();
-    console.log(time1 + time2 + time3)
+// function dob(){
+//     var now = new Date();
+//     var time1 = now.getFullYear();
+//     var time2 = now.getMonth();
+//     var time3 = now.getDate();
+//     console.log(time1 + time2 + time3)
 
-}
-var now = new Date();
-function dob(now){
+// }
+// var now = new Date();
+// function dob(now){
     
-    var date = now.getHours() + ":" + (now.getMinutes()+1)+ ":" + now.getSeconds();
-    console.log(date)
-}
-dob(now)
+//     var date = now.getHours() + ":" + (now.getMinutes()+1)+ ":" + now.getSeconds();
+//     console.log(date)
+// }
+// dob(now)
 
 // 1
 // var now = new Date();
 // console.log(now)
+
+
+
+// //
+// var myDay = new Date().getDay();
+// console.log(myDay)
+// var daysArr = ["sun", "mon", "tue", "wed", "thu", "fri", "sat"]
+// var day = daysArr[myDay]
+// if(day == "fri" || day == "sat" || day == "sun"){
+//     console.log("its a weekend")}
+//     else{
+//         console.log("its working day")
+//     }
+
+
+
+// var signal = prompt("which light are showing?")
+// switch (signal) {
+//     case "red":
+//         alert("stop")
+//         break;
+//     case "yellow":
+//         alert("ready to go")
+//         break;
+//     case "green":
+//          alert("go ahead")
+//         break;
+//         default:
+//             alert("you entered wrong")
+
+// }
+
+
+
+///
+
+// var circleR = prompt("write a number");
+// var circleArea = prompt("write another number")
+
+// function calCircumference(circleR) {
+//     return 2 * Math.PI * circleR;
+//   }
+//   function calArea(circleArea){
+//       return Math.SQRT2 * circleArea;
+//   }
+//   console.log(" circle = "+ " "+ calCircumference(circleR), " Area of circle  = "+ " "+ calArea(circleArea));  
+
+
+//   function circle(radius)
+// {
+//     this.radius = radius;
+//   // area method
+//     this.area = function () 
+//     {
+//         return Math.PI * this.radius * this.radius;
+//     };
+//   // perimeter method
+//     this.perimeter = function ()
+//     {
+//         return 2*Math.PI*this.radius;
+//     };
+// }
+
+
+// var input1 = prompt("write a number");
+// var a = 5;
+// if (input1 == a){
+//     alert("you have won")
+
+
+// }  else{
+//     alert(prompt("write again")  (input1 == a) )
+//     alert("you have won")
+// }
+
+
+// var a = 5;
+// while(true){
+//     var input1 = prompt("write a number");
+//     if(input1 == a){
+//         break;
+//     }
+//    alert("wrong answer")
+// }
+// alert("you won")
+
+var a = 5;
+do{
+    input1 = +prompt("enter")
+    if(user == a)
+    alert("you have won")
+}
+while(user !== a){
+    input1 = +prompt("enter")
+}
