@@ -24,6 +24,7 @@
 
 // console.log(x.tagName)
 // // }
+
 // function check(){
 //     var cityName;
 //     var country1 = document.getElementById("country").value;
@@ -59,7 +60,7 @@
 //      x[i].innerHTML = 'sydney'
 //      console.log(x)
 //      for(let i = 0; i<x.length; i++){
-//          if(x[i].innerHTML == 'kuwait'){
+//          if(tochange[i].innerHTML == 'kuwait'){
 //              x[i].innerHTML = 'sydney'
 //          }
 //      }
@@ -163,3 +164,98 @@ function addItem(){
 //     }
 //   }
 
+// function big(){
+//     var a = document.getElementById("para");
+//    a.className += ' hidden1' 
+// }
+
+
+// var student = {
+//     name : "David Rayy",
+//     sclass : "VI",
+//     rollno : 12,  
+
+   
+    
+// }
+
+// for(var i in student)
+//  console.log(student[i])
+
+
+
+//  var num1 = {
+//     title: 'Bill Gates',
+//     author: 'The Road Ahead',
+//     readingStatus: true
+// }
+
+//  var num2 = {
+//     title: 'Steve Jobs',
+//     author: 'Walter Isaacson',
+//     readingStatus: true
+// }
+//  var num3 = {
+//     title: 'Mockingjay: The Final Book of The Hunger Games',
+//     author: 'Suzanne Collins',
+//     readingStatus: false
+// }
+
+// for (var i in num1)
+// console.log(num3[i])
+
+
+
+// var num1 =[ {
+//     title: 'Bill Gates',
+//     author: 'The Road Ahead',
+//     readingStatus: true
+// },
+
+// {
+//     title: 'Steve Jobs',
+//     author: 'Walter Isaacson',
+//     readingStatus: true
+// },
+// {
+//     title: 'Mockingjay: The Final Book of The Hunger Games',
+//     author: 'Suzanne Collins',
+//     readingStatus: false
+// }];
+// for (let i =0; i<num1; i++)
+//  var 
+
+
+
+
+//  var emplyee = {
+//     name : "David Rayy",
+//     age : "30",
+//     absent : 2,
+//     salary: 30000,
+      
+    
+    
+// }
+function Emplyee(name,salary,absent){
+  this.name = name;
+  this.salary = salary;
+  this.absent = absent;
+  Emplyee.prototype.bonus = 1/////000;
+  this.salaryCalc = function(){
+    if(this.absent > 2){
+        this.salary = this.salary * .2 + Emplyee.prototype.bonus ;
+    }
+  }
+}
+
+var emplyee1 = new Emplyee('madiha', 5000,3);
+var emplyee2 = new Emplyee('asma', 4000,6);
+var emplyee3 = new Emplyee('umii', 3000,0);
+emplyee1.salaryCalc()
+emplyee2.salaryCalc()
+emplyee3.salaryCalc()
+emplyee3.bonus = 0;
+console.log(emplyee1)
+console.log(emplyee2)
+console.log(emplyee3)
