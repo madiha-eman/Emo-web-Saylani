@@ -1,0 +1,63 @@
+body{
+    background-color: black;
+    text-align: center;
+    color: white;
+}
+.title{
+    margin: auto;
+    margin-top: 30px;
+    
+}
+.wrapper{
+    background-color: black;
+    color: white;
+    margin: auto;
+
+}
+.search{
+    margin: auto;
+    margin-top: 30px;
+   
+}
+#search{
+    width: 400px;
+    height: 40px;
+    border-radius: 5px;
+    padding-left: 10px;
+}
+button{
+    width: 60px;
+    height: 34px;
+    font-size: 16px;
+}
+.recipeBox{
+    margin: 1px;
+}
+.box div ,img {
+    display: inline-block;
+    width: 200px;
+    height: 150px;
+    background-color: aquamarine;
+    border: 5px solid white;
+    margin: 10px;
+    padding: 5px;
+    
+}
+
+/* {
+    width: 200px;
+    height: 150px;
+    
+
+} */
+
+/* .fa{
+  width: 50px;
+    height: 40px;
+    background-color: white;
+    color: black;
+    
+    
+    text-align: center;
+
+} */
