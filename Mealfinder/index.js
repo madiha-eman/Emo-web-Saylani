@@ -1,5 +1,4 @@
-
-function searchRecipe(){
+function searchRecipe()  {
     var search  =  document.getElementById('search');
     console.log(search.value) 
     var api2 = `https://www.themealdb.com/api/json/v1/1/search.php?s=${search.value}`
@@ -13,20 +12,21 @@ function searchRecipe(){
         const recipesArr = data.meals;
     
         var row  =  document.getElementById('row');
-        ;
+        
     
         for(let i = 0; i< recipesArr.length; i++){
-        var div = document.createElement('div')
-        var img = document.createElement('img')
-        div.className = 'box';
-        img.className = 'img'
-
-        img.setAttribute("src", recipesArr[i].strMealThumb);
-        div.appendChild(img);
-
+        var div1 = document.createElement('div')
+        var div2 = document.createElement('div')
+        var img = document.createElement("img")
+        div1.className = 'box';
+        img.className="myimg"
+       
+        img.setAttribute("src",recipesArr[i].strMealThumb);
         var text = document.createTextNode(recipesArr[i].strMeal)
-        div.appendChild(text)
-        row.appendChild(div)
+        div1.appendChild(div2)
+        div2.appendChild(img)
+       div2.appendChild(text)
+        row.appendChild(div1)
     
         }
     
@@ -39,24 +39,35 @@ function searchRecipe(){
         console.log(error)
     });
     search.value = '';
-    }
     
-
-    function searchRandom(){
+    }
+    function searchRandom() {
         var api = 'https://www.themealdb.com/api/json/v1/1/random.php'
-         fetch(api)
-         .then(res =>res.json))
-         .then(data => function(){
-             console.log(data)
-             var recipeSingle = data.meals
-             for(let i = 0; i< recipesArr.length; i++){
-                var row = document.getElementById('row')
-                var div = document.createElement('div')
+        fetch(api)
+        .then(res=>res.json())
+        .then(data => {
+            console.log(data)
+            var recipeSingle= data.meals
+            for(let i = 0; i< recipeSingle.length; i++){
+                
+                var row  =  document.getElementById('row');
+                var div1 = document.createElement('div')
+
+                var div2 = document.createElement('div')
                 var content = document.createElement('div')
-                var textcontent = document.createTextNode(recipeSingle[i].strMeal)
-
-         }
-            
-
-    })
-}
+                var img = document.createElement("img")
+                img.setAttribute("src",recipeSingle[i].strMealThumb);
+                img.className="myimg2"
+                div1.className="box1"
+                var textcontent = document.createTextNode(recipeSingle[i].strInstructions)
+                content.appendChild(textcontent)
+                div2.appendChild(img);
+                var text = document.createTextNode(recipeSingle[i].strMeal)
+                div1.appendChild(text)
+                 row.appendChild(div1)
+                 div1.appendChild(div2)
+                 row.appendChild(content)
+            }
+        })  
+    }
+    submitForm.addEventListener('submit', searchRecipe);

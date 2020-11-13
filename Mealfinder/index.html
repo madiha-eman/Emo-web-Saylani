@@ -1,49 +1,38 @@
+<!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Meal finder</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="style.css">
-    <title>Document</title>
 </head>
-
 <body>
-    <h1 class="title">Meal Finder</h1>
+    <header>
+        <h1 class="title">Meal Finder</h1>
+        <h2>Find any recipe</h2>
+        <hr>
+    </header>
+   
     <div class="wrapper">
         <div class="search">
-        <form action="" id="submit" >
-         <input id="search" type="text" placeholder="Search for a Meal...">
-            <!-- <i class="fa fa-search"></i> -->   
-         <button onclick="searchRecipe()" type="submit"> Find </button>
-         <button onclick="searchRandom()" type="submit"> Random </button>
-        </form>
+         
+            <input type="text" id='search' placeholder="find the meal">
+            
+            <button type="submit" onclick="searchRecipe()">Find</button>
+           
+            <button class="btn"  onclick="searchRandom()" type="submit"><i class="fa fa-random" aria aria-hidden="true"></i></button>
         </div>
         <div class="recipeBox">
             <div class="row" id="row">
-               
+                 
             </div>
+           
         </div>
 
     </div>
+    <!-- <footer>&copy; 2020 Made by Faiza</footer> -->
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    <script src="index.js"></script>
-
+    <script src="web.js"></script>
 </body>
-
 </html>

@@ -1,63 +1,78 @@
-body{
-    background-color: black;
-    text-align: center;
-    color: white;
+.wrapper, body{
+    margin: 2px;
+    background-color: rgb(54, 4, 54);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+text-align: center;
+color: whitesmoke;
+
+
 }
-.title{
+
+h1,h2{
+    color: whitesmoke;
+}
+
+.wrapper{
+    width: 95%;
     margin: auto;
-    margin-top: 30px;
+    
     
 }
-.wrapper{
-    background-color: black;
-    color: white;
-    margin: auto;
-
+.title{
+    text-decoration: underline;
 }
 .search{
     margin: auto;
-    margin-top: 30px;
-   
 }
 #search{
-    width: 400px;
-    height: 40px;
-    border-radius: 5px;
-    padding-left: 10px;
+    width: 500px;
+    height: 45px;
+    border-radius: 10px;
+    border: 3px solid grey;
+    
 }
 button{
-    width: 60px;
-    height: 34px;
-    font-size: 16px;
+    border-radius: 10px;
+    border: 3px solid grey;
+    width:70px ;
+    height: 40px;
+
 }
+
 .recipeBox{
     margin: 1px;
+   
 }
-.box div ,img {
+.row{
+    margin: auto;
+    /* display:flex; */
+    margin-top: 60px;
+}
+.box {
     display: inline-block;
-    width: 200px;
-    height: 150px;
-    background-color: aquamarine;
+    width: 200px ;
+    height: 200px ;
+    background-color: black;
     border: 5px solid white;
     margin: 10px;
     padding: 5px;
-    
+    }
+    .box1 {
+       font-size: 30px;
+       margin-top: 50px;
+      
+        }
+
+ 
+.myimg{
+    width: 200px ;
+    height: 150px ;   
 }
-
-/* {
-    width: 200px;
-    height: 150px;
-    
-
-} */
-
-/* .fa{
-  width: 50px;
-    height: 40px;
-    background-color: white;
-    color: black;
-    
-    
-    text-align: center;
-
-} */
+.myimg2{
+    width: 200px ;
+    height: 200px ; 
+    background-color: black;
+    border: 5px solid white;
+    margin: 10px;
+    padding: 5px;  
+}
