@@ -11,17 +11,17 @@
     <header>
         <h1 class="title">Meal Finder</h1>
         <h2>Find any recipe</h2>
-        <hr>
+       
     </header>
    
     <div class="wrapper">
         <div class="search">
          
-            <input type="text" id='search' placeholder="find the meal">
+            <input type="text" id='search' placeholder="Search for a Meal...">
             
-            <button type="submit" onclick="searchRecipe()">Find</button>
+            <button type="submit" id="btn1" onclick="searchRecipe()">Search</button>
            
-            <button class="btn"  onclick="searchRandom()" type="submit"><i class="fa fa-random" aria aria-hidden="true"></i></button>
+            <button  class="btn"  onclick="searchRandom()" type="submit"><i id="btn2" class="fa fa-random" aria aria-hidden="true"></i></button>
         </div>
         <div class="recipeBox">
             <div class="row" id="row">
@@ -33,6 +33,6 @@
     </div>
     <!-- <footer>&copy; 2020 Made by Faiza</footer> -->
 
-    <script src="web.js"></script>
+    <script src="index.js"></script>
 </body>
 </html>

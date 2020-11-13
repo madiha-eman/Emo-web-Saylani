@@ -25,7 +25,7 @@ function searchRecipe()  {
         var text = document.createTextNode(recipesArr[i].strMeal)
         div1.appendChild(div2)
         div2.appendChild(img)
-       div2.appendChild(text)
+        div2.appendChild(text)
         row.appendChild(div1)
     
         }
@@ -59,6 +59,7 @@ function searchRecipe()  {
                 img.setAttribute("src",recipeSingle[i].strMealThumb);
                 img.className="myimg2"
                 div1.className="box1"
+                content.className="txt"
                 var textcontent = document.createTextNode(recipeSingle[i].strInstructions)
                 content.appendChild(textcontent)
                 div2.appendChild(img);
