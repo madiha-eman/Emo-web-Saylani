@@ -446,12 +446,59 @@
 // }
 // alert("you won")
 
-var a = 5;
-do{
-    input1 = +prompt("enter")
-    if(user == a)
-    alert("you have won")
+// var a = 5;
+// do{
+//     input1 = +prompt("enter")
+//     if(user == a)
+//     alert("you have won")
+// }
+// while(user !== a){
+//     input1 = +prompt("enter")
+// }
+
+// function click1() {
+//     window.location.href = "http://www.facebook.com";
+//   }
+//   function click2() {
+//     history.back();
+//   }
+//   function click3() {
+//     history.forward();
+
+//   }
+//    var windoW = window.open()
+//    var txt = '<h1>pop up<h1>'
+//    monkeyWindow.document.write(windowContent);
+function checkform() {
+    var name = document.getElementById("firstName");
+    var last = document.getElementById("last");
+    var state = document.getElementById("state");
+    var radio = document.getElementsByName("gander")
+    if(name.value == ''){
+      alert('Please enter your first name');
+      name.focus();
+      
+      return false;
+    }
+    else if(last.value == ''){
+        alert('Please enter your last name')
+        name.focus();
+        return false;
+    }
+    else if(state.selectedIndex === 0){
+        alert('select one')
+        name.focus();
+        return false;
+    }
+    for (var i = 0; i < radio.length; i++) {
+        if (radio[i].checked) {
+        return true;
+        }
+    }
+        alert("Please check one.");
+        name.focus();
+        return false;
+ 
 }
-while(user !== a){
-    input1 = +prompt("enter")
-}
+
+    

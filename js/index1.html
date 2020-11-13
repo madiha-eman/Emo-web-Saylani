@@ -17,10 +17,37 @@
     <title>Document</title>
 </head>
 <body>
-    <h1 class="js">javascript</h1>
+    <!-- <h1 class="js">javascript</h1> -->
 
-    <a href="" onClick="alert('Hi');">Click</a>
-    <button type="submit" value="send" onClick="alert('Hi');" >Send</button>
+    <!-- <a href="" onClick="alert('Hi');">Click</a> -->
+    <!-- <button type="submit" value="send" onClick="alert('Hi');" >Send</button> -->
+    <!-- <button onclick=" click1()">click</button>
+    <button onclick=" click2()" class="fa fa-arrow">back</button>
+    <button onclick=" click3()" class="fa fa-arrow">forward</button> -->
+
+    <form onsubmit="return checkform();" id="search">
+        <label for="name">Name</label>
+        <input type="text" id="firstName" name="name" placeholder="Enter your name"><br>
+        <label for="last">Last Name</label>
+        <input type="text" id="last" name="last" placeholder="Enter Last name"><br>
+        <label for="Select">City</label>
+        <select name="Select" id="state" >
+            <option value="">select one</option>
+            <option value="">Karachi</option>
+            <option value="">Lahore</option>
+            <option value="">Islamabad</option>
+            <option value="">Peshawar</option>
+            <option value="">Faislabad</option>
+            <option value="">Multan</option>
+
+        </select><br>
+        <label for="gander">male</label>
+        <input type="radio" id="gander" name="gander" value="male" >
+        <label for="gander1">female</label>
+        <input type="radio" id="gander1" name="gander" value="female">
+        <br>
+        <button >Sign Up</button>
+    </form>
     
 
     <script src="index.js"></script>
