@@ -1,5 +1,10 @@
 function searchRecipe()  {
     var search  =  document.getElementById('search');
+    if(search.value == ''){
+        alert('Please enter any one recipe name');
+        name.focus();
+        return false;
+      }
     console.log(search.value) 
     var api2 = `https://www.themealdb.com/api/json/v1/1/search.php?s=${search.value}`
     console.log(api2)
@@ -10,10 +15,7 @@ function searchRecipe()  {
         // Your code for handling the data you get from the API
         console.log(data.meals)
         const recipesArr = data.meals;
-    
         var row  =  document.getElementById('row');
-        
-    
         for(let i = 0; i< recipesArr.length; i++){
         var div1 = document.createElement('div')
         var div2 = document.createElement('div')
@@ -30,17 +32,17 @@ function searchRecipe()  {
     
         }
     
-    
-    
-    
     })
     .catch(function(error) {
         // This is where you run code if the server returns any errors
         console.log(error)
     });
     search.value = '';
+}
     
-    }
+       
+    
+
     function searchRandom() {
         var api = 'https://www.themealdb.com/api/json/v1/1/random.php'
         fetch(api)
@@ -49,10 +51,8 @@ function searchRecipe()  {
             console.log(data)
             var recipeSingle= data.meals
             for(let i = 0; i< recipeSingle.length; i++){
-                
                 var row  =  document.getElementById('row');
                 var div1 = document.createElement('div')
-
                 var div2 = document.createElement('div')
                 var content = document.createElement('div')
                 var img = document.createElement("img")
@@ -68,6 +68,9 @@ function searchRecipe()  {
                  row.appendChild(div1)
                  div1.appendChild(div2)
                  row.appendChild(content)
+                 row.appendChild(tex1)
+                 
+                 
             }
         })  
     }
