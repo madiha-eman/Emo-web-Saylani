@@ -82,11 +82,75 @@
 // console.log(greet)
 
 
-var c = ['asma', 'madiha']
-const ind = c.map(
-    (item,index) => {
-        let ind = `${index}  ${item}`  
-        return ind 
-    }
-)
-console.log(ind)
+// var c = ['asma', 'madiha']
+// const ind = c.map(
+//     (item,index) => {
+//         let ind = `${index}  ${item}`  
+//         return ind 
+//     }
+// )
+// console.log(ind)
+
+           ///developer.mozilla.org
+/// include, find, filter, reduce
+///find.....undefine
+///include....false or true
+///filter.....we make condition 
+///reduce.....we can make array value add and subtract and anything ...in way left to right 
+
+
+// var teachers = ['faiza', 'inzimam', 'mughal']
+// var students = ['kulsoom', 'maryam', 'tooba', 'komal']
+// var toFind = prompt('Enter your name')
+// var a = teachers.find(
+//     (item,index) =>{
+//         return item == toFind
+//     }
+// )
+    
+// console.log(a)
+
+
+// var teachers = ['faiza', 'inzimam', 'mughal']
+// var students = ['kulsoom', 'maryam', 'tooba', 'komal']
+// var ages = [19,21,18,19]
+// var toFind = prompt('Enter your name')
+// var a = teachers.includes(toFind)
+    
+// console.log(a)
+
+//         if(a == true){
+//             let d =students.map((item,index) =>{
+//                 return {name:item, age:ages[index]}
+//             })
+// console.log(d)
+//         }
+
+        ////destructing
+
+// [a,b,c] = [1,2,3]
+// console.log(a)        
+
+
+         ///ternary js...condition ? expriftrue : exprifFalse
+ 
+// var salary = prompt('Enter your salary')
+// var bonus = (salary >= 5000) ? 1000: 500    
+// console.log(bonus)  
+
+// let age = prompt('Enter your age');
+// var allowed = (age > 18) ? 'yes'
+//               :(age == 18) ? 'lemme think'
+//               :(age < 18) ? 'not allowed'
+//               :'invalid'
+// console.log(allowed)  
+
+let days = prompt('Enter your present day');
+
+var allowed = (days > 23) ? 'you are not eligible for exam'
+              :(days == 23) ? 'you can get your admit card after 10 dec'
+              :(days < 23) ? ''
+              :'invalid'
+console.log(allowed)  
+        
+         
