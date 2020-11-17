@@ -96,10 +96,15 @@
 // }
 
 
-var number = prompt("write a number");
-function numbers(number){
-    var number = number + number;
-     return number
-}
-var result = numbers(number);
-console.log(numbers)
+// var number = prompt("write a number");
+// function numbers(number){
+//     var number = number + number;
+//      return number
+// }
+// var result = numbers(number);
+// console.log(numbers)
+
+
+var a = ['madiha', 'umer','ásma', 'munna']
+var b = a.slice(2,3,'shumaila')
+console.log(b)
