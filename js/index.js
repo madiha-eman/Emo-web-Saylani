@@ -162,17 +162,17 @@
 // console.log(newNames)
 
 //
-// var names = "madiha eman";
-// var newNames
-// function titlecase(names) {
-//     var names2 =names.split(" ")
-//     for(var i=0; i<names2.length; i++){
-//         names2[i] = names2[i][0].toUpperCase() + names2[i].slice(1)
-//     }
-//     names2 = names2.join(" ")
-//     console.log(names2)
-//     return names2
-// }
+var names = "madiha eman";
+var newNames
+function titlecase(names) {
+    var names2 =names.split(" ")
+    for(var i=0; i<names2.length; i++){
+        names2[i] = names2[i][0].toUpperCase() + names2[i].slice(1)
+    }
+    names2 = names2.join(" ")
+    console.log(names2)
+    return names2
+}
 // var newNames = titlecase(names)
 // console.log(newNames)
 
@@ -501,4 +501,5 @@ function checkform() {
  
 }
 
-    
+var txt = "We are \"Vikings\"";
+alert(txt);
