@@ -128,8 +128,6 @@
 
         ////destructing
 
-// [a,b,c] = [1,2,3]
-// console.log(a)        
 
 
          ///ternary js...condition ? expriftrue : exprifFalse
@@ -145,12 +143,60 @@
 //               :'invalid'
 // console.log(allowed)  
 
-let days = prompt('Enter your present day');
+// let days = prompt('Enter your present day');
 
-var allowed = (days > 23) ? 'you are not eligible for exam'
-              :(days == 23) ? 'you can get your admit card after 10 dec'
-              :(days < 23) ? ''
-              :'invalid'
-console.log(allowed)  
+// var allowed = (days > 23) ? 'you are not eligible for exam'
+//               :(days == 23) ? 'you can get your admit card after 10 dec'
+//               :(days < 23) ? ''
+//               :'invalid'
+// console.log(allowed)  
         
-         
+
+                                      //speard op ...
+// var arr =[2,3,4,5]
+// var arr2 = arr;
+// arr2[0]=4;
+// console.log(arr)
+
+
+// var arr1 = [2,3,4,5]
+// var arr2 = [6,7,8,9]
+// var newArr = [...arr1, ...arr2]
+// console.log(newArr)
+
+// var obj = {
+//         name: 'madiha',
+//         class: '4th Year'
+// }
+// var obj1 = {
+//         age: 23,
+// }
+// var newObj = {...obj, ...obj1}
+// console.log(newObj)
+ 
+
+// let [a,b,c,d,...e] = [20,3,4,5,60,7,8]
+// function sum(x,y,z){
+//         return x+z+y
+// }
+// let arr5 = [2,3,4]
+// var res = sum(...arr5)
+// console.log(res)
+
+// let sub = (a, ...b) => {
+//         var res1 =b.reduce((item,index) =>{
+//                 return item - index
+//         })
+//         res1 = a - res1 ;
+//         return res1
+// }
+// var result = sub (30,20,11) ///30 is a value and anthore all is  b value 
+// console.log(result)
+
+
+
+function check(...op){
+        let [a,b,c] = op
+        console.log(a,b,c)
+  }
+  check(1,2,3)
