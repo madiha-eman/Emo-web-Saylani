@@ -195,8 +195,63 @@
 
 
 
-function check(...op){
-        let [a,b,c] = op
-        console.log(a,b,c)
-  }
-  check(1,2,3)
+// function check(...op){
+//         let [a,b,c] = op
+//         console.log(a,b,c)
+//   }
+//   check(1,2,3)
+
+// var obj = { name: 'madiha', status: 'active'}
+// var obj2 = {name1: 'asma', status1: 'unactive'}
+// let{name1,status1} = obj2
+// let{name,status} = obj
+// console.log(`${name1}\n${status1}`)
+// console.log(`${name}\n${status}`)
+ 
+
+let back = () => {
+        console.log('hello')
+}
+
+try{
+        back();
+}
+catch(err){
+        console.log(err)
+        
+}
+// var currentDate = new Date();
+//          var hour = date.getHours();
+//         var min = date.getMinutes();
+//         var sec = date.getSeconds();
+//         hour = updateTime(hour);
+//         min = updateTime(min);
+//         sec = updateTime(sec);
+//         document.getElementById('aa').innerHTML= hour + " : " + min + " : " + sec;
+// let click1 = () =>{
+//         setTimeout(display,1000)
+// }
+
+// let display = ()=> {
+//      alert('hello')
+// }   a++;
+//document.getElementById('aa').innerHTML= a;
+
+const click1 = () =>{
+      t =  setInterval(display,1000)
+}
+let stop = () =>{
+        clearInterval(t)
+}
+let display = ()=> {
+      var currentDate = new Date();
+      var day = currentDate.getDate();
+      var month = currentDate.getMonth() +1;
+      var year = currentDate.getFullYear(); 
+      var hour = currentDate.getHours();
+      var min = currentDate.getMinutes();
+      var sec = currentDate.getSeconds();
+      document.getElementById('clock').innerHTML= `${day}-${month}-${year} ${hour}: ${min}: ${sec}`;  
+     
+}
+
