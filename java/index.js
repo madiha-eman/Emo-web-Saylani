@@ -105,6 +105,43 @@
 // console.log(numbers)
 
 
-var a = ['madiha', 'umer','ásma', 'munna']
-var b = a.slice(2,3,'shumaila')
-console.log(b)
+// var a = ['madiha', 'umer','ásma', 'munna']
+// var b = a.slice(2,3,'shumaila')
+// console.log(b)
+
+
+// var data ={name:'asma', class1: "b.a"};
+// var merge ={...data,school:'churail',age:20}
+// console.log(merge)
+
+
+
+
+// var arr = ['asma','madiha'];
+// var arr2 = [...arr,2,3]
+// console.log(arr2)
+
+// var student= {
+//     name: 'asma',
+//     class: 'B.A',
+//     lookingwise: "beautiful",
+//     height: '5.6',
+// }
+// let {name,lookingwise, height}=student;
+
+// console.log(height)
+
+
+// let [a,b,c,d, ...e] = [1,3,5,90,70,60]
+// console.log(e)
+
+
+// var look= prompt('are u good looking');
+
+// var look2 = (look == 'yes')? 'gorgeouse'
+//             :(look == 'normal') ? 'good'
+//             :(look == 'bad') ? 'its ok'
+//             : 'invalid'
+// console.log(look2)
+
+
